@@ -1,3 +1,5 @@
 # footballxism
 
-A new Flutter application.
+- Icon
+- Launcher screen
+
