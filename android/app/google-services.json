@@ -29,6 +29,13 @@
             {
               "client_id": "261266217902-kn3at64o0odgq1uvho25mgkni9ne7alh.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "261266217902-0s874p67ortsi9us8tnm3q187ipe35ve.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.footballxism"
+              }
             }
           ]
         }

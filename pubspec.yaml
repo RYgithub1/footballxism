@@ -34,27 +34,32 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   flutter_launcher_icons: ^0.13.1
-
-
-flutter_launcher_icons:
-  android: "launcher_icon"
-  ios: true
-  image_path: "assets/images/ic_launcher.jpg"
-  min_sdk_android: 21 # android min sdk min:16, default 21
-  adaptive_icon_background: "#ABE1FA"
-  adaptive_icon_foreground: "assets/images/ic_launcher.jpg"
+  firebase_core: ^2.13.0
+  firebase_auth: ^4.6.1
+  firebase_analytics: ^10.4.1
+  cloud_firestore: ^4.7.1
+  firebase_storage: ^11.2.1
 
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^2.0.0
+  # flutter_lints: ^2.0.0
+
+
+
+flutter_launcher_icons:
+    android: "launcher_icon"
+    ios: true
+    image_path: "assets/images/ic_launcher.jpg"
+    adaptive_icon_background: "#ABE1FA"
+    adaptive_icon_foreground: "assets/images/ic_launcher.jpg"
+
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
@@ -71,10 +76,8 @@ flutter:
   assets:
      - assets/images/
   #   - images/a_dot_ham.jpeg
-
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
-
   # For details regarding adding assets from package dependencies, see
   # https://flutter.dev/assets-and-images/#from-packages
 
