@@ -47,6 +47,6 @@ app.*.map.json
 # |> ADDING
 /android/
 /ios/
-/lib/screens/firebase_options.dart
+/lib/firebase_options.dart
 .metadata
 pubspec.lock
