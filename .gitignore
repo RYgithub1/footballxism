@@ -50,3 +50,4 @@ app.*.map.json
 /lib/firebase_options.dart
 .metadata
 pubspec.lock
+ios/Runner/GoogleService-Info.plist
